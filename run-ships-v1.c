@@ -13,6 +13,12 @@ puts ("Change side of the world: ")
 fgets(side, sizeof(side), stdin)
     }
 }
+void change_side()
+{
+go2E(&side);
+
+
+}
 int main(void)
 {
    int latitude = 32;
