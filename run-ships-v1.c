@@ -10,7 +10,7 @@ void go2E(int * lt1, int * ln2)
     {
         char side[4];
 puts ("Change side of the world: ")
-fgets(side, change(side), stdin)
+fgets(side, sizeof(side), stdin)
     }
 }
 int main(void)
